@@ -1,0 +1,25 @@
+nav{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+nav a{
+    color: white;
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+#underline{
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    left: 0;
+    bottom: -1rem;
+    transition: 0.5s ease;
+}
